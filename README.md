@@ -6,20 +6,20 @@ Problem Statement :
 Project Introduction :
     The project utilizes computer vision algorithms to align images, enabling the reconstruction of 3D scenes from 2D models. It leverages techniques such as feature extraction, image registration, and structure-from-motion to produce accurate and detailed 3D representations.
     KEY FEATURES :
-    - Image matching algorithms
-    - Visualization of reconstructed 3D scenes
+    Image matching algorithms, 
+    Visualization of reconstructed 3D scenes
 
 Installation :
     To set up the project,
-    - I started by importing the libaries that are required for the project (like - panda, numpy etc.)
+    I started by importing the libaries that are required for the project (like - panda, numpy etc.), 
     - Additional installation -  https://raw.githubusercontent.com/colmap/colmap/dev/scripts/python/read_write_model.py
 
     - for Dataset - https://www.kaggle.com/competitions/image-matching-challenge-2023/overview
     I have downloaded from here.
 
 Usage : 
-    1. Gather a collection of 2D images capturing the scene you want to reconstruct.
-    2. Run the image matching algorithm
-    3. The algorithm will start matching and aligning the images. Progress updates and relevant information will be displayed in the console or log files.
-    4. after the reconstruction is complete, you can visualize the 3D scene.
+    Gather a collection of 2D images capturing the scene you want to reconstruct. 
+    Then run the image matching algorithm.
+    Then the algorithm will start matching and aligning the images. Progress updates and relevant information will be displayed in the console or log files.
+    Then after the reconstruction is complete, you can visualize the 3D scene.
 
